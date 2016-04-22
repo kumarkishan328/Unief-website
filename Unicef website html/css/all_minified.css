@@ -1,0 +1,55 @@
+/* Animations */
+@-webkit-keyframes moving_clouds {100% {background-position-x: 933px;}0% {background-position-x: 0px;}}
+@-moz-keyframes moving_clouds{100% {background-position: 933px top;}0% {background-position: 0px top;}}
+@-ms-keyframes moving_clouds{100%{background-position: 933px top;}0%{background-position: 0px top;}}
+@-webkit-keyframes moving_swamp{100%{background-position-x:0px;}0%{background-position-x: 687px;}}
+@-moz-keyframes moving_swamp{100%{background-position: 0px top;}0%{background-position: 687px top;}}
+@-ms-keyframes moving_swamp{100%{background-position: 0px top;}0% {background-position: 687px top;}}
+
+
+#swamp, #swamp1, #swamp2,#swamp3,#swamp4,#swamp5,#swamp6{position: fixed;width: 100%;height:54px;background-repeat:repeat-x;background-position: top center;background-position-x: 0px;}
+
+#swamp{bottom: 90px;background-image: url(../images/wave/01.png);}	
+#swamp1{bottom: 80px;background-image: url(../images/wave/02.png);}
+#swamp2{bottom: 70px;background-image: url(../images/wave/03.png);}
+#swamp3{bottom: 45px;background-image: url(../images/wave/04.png);}
+#swamp4{bottom: 30px;background-image: url(../images/wave/05.png);}
+#swamp5{bottom: 0px;background-image: url(../images/wave/06.png);}
+#swamp6{bottom: 60px;background-image: url(../images/wave/05.png);}
+
+
+
+#swamp.animated {
+	-webkit-animation-name:moving_swamp;-webkit-animation-duration: 50s;-webkit-animation-iteration-count: infinite;-webkit-animation-direction: normal;-webkit-animation-timing-function: linear;
+	-moz-animation-name: moving_swamp;	-moz-animation-duration: 50s;	-moz-animation-iteration-count: infinite;	-moz-animation-direction: normal;	-moz-animation-timing-function: linear;
+	-ms-animation-name: moving_swamp;	-ms-animation-duration: 50s;	-ms-animation-iteration-count: infinite;	-ms-animation-direction: normal;	-ms-animation-timing-function: linear;}
+	
+	
+#swamp1.animated {
+	-webkit-animation-name:moving_clouds;-webkit-animation-duration: 50s;-webkit-animation-iteration-count: infinite;-webkit-animation-direction: normal;-webkit-animation-timing-function: linear;
+	-moz-animation-name: moving_clouds;	-moz-animation-duration: 50s;	-moz-animation-iteration-count: infinite;	-moz-animation-direction: normal;	-moz-animation-timing-function: linear;
+	-ms-animation-name: moving_clouds;	-ms-animation-duration: 50s;	-ms-animation-iteration-count: infinite;	-ms-animation-direction: normal;	-ms-animation-timing-function: linear;}
+	
+#swamp2.animated {
+	-webkit-animation-name:moving_swamp;-webkit-animation-duration: 80s;-webkit-animation-iteration-count: infinite;-webkit-animation-direction: normal;-webkit-animation-timing-function: linear;
+	-moz-animation-name: moving_swamp;	-moz-animation-duration: 80s;	-moz-animation-iteration-count: infinite;	-moz-animation-direction: normal;	-moz-animation-timing-function: linear;
+	-ms-animation-name: moving_swamp;	-ms-animation-duration: 80s;	-ms-animation-iteration-count: infinite;	-ms-animation-direction: normal;	-ms-animation-timing-function: linear;}
+	
+#swamp3.animated {
+	-webkit-animation-name: moving_clouds;-webkit-animation-duration: 80s;-webkit-animation-iteration-count: infinite;-webkit-animation-direction: normal;-webkit-animation-timing-function: linear;
+	-moz-animation-name: moving_clouds;	-moz-animation-duration: 80s;	-moz-animation-iteration-count: infinite;	-moz-animation-direction: normal;	-moz-animation-timing-function: linear;
+	-ms-animation-name: moving_clouds;	-ms-animation-duration: 80s;	-ms-animation-iteration-count: infinite;	-ms-animation-direction: normal;	-ms-animation-timing-function: linear;}
+	
+	
+#swamp4.animated {
+	-webkit-animation-name: moving_swamp;-webkit-animation-duration: 80s;-webkit-animation-iteration-count: infinite;-webkit-animation-direction: normal;-webkit-animation-timing-function: linear;
+	-moz-animation-name: moving_swamp;	-moz-animation-duration: 80s;	-moz-animation-iteration-count: infinite;	-moz-animation-direction: normal;	-moz-animation-timing-function: linear;
+	-ms-animation-name: moving_swamp;	-ms-animation-duration: 80s;	-ms-animation-iteration-count: infinite;	-ms-animation-direction: normal;	-ms-animation-timing-function: linear;}
+	
+#swamp5.animated {
+	-webkit-animation-name: moving_clouds;-webkit-animation-duration: 100s;-webkit-animation-iteration-count: infinite;-webkit-animation-direction: normal;-webkit-animation-timing-function: linear;
+	-moz-animation-name: moving_clouds;	-moz-animation-duration: 100s;	-moz-animation-iteration-count: infinite;	-moz-animation-direction: normal;	-moz-animation-timing-function: linear;
+	-ms-animation-name: moving_clouds;	-ms-animation-duration: 100s;	-ms-animation-iteration-count: infinite;	-ms-animation-direction: normal;	-ms-animation-timing-function: linear;}
+
+
+

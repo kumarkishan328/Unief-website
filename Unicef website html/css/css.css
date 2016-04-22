@@ -1,0 +1,111 @@
+@charset "utf-8";
+/* CSS Document */
+*{outline:none;}
+body, html{margin:0px auto; padding:0px inherit;background:none;overflow:hidden;color:#472f15;font-family:Arial, Helvetica, sans-serif;font-size:12px;}
+ul,li{list-style:none;}
+img.bg {/* Set rules to fill background */min-height: 100%;min-width: 1024px;/* Set up proportionate scaling */width: 100%;height: auto;/* Set up positioning */position: fixed;top: 0;left: 0;z-index:-9999}
+@media screen and (max-width: 1024px){
+	img.bg {left: 50%;margin-left: -512px; }
+}
+
+.hidd{display:none;}
+.show{display:block}
+.left{float:left;}
+
+#wrapper {width:823px; height:650px; margin:0px auto; padding:0px inherit; background:none; }
+
+.bg_img {width:1000px; height:650px; margin:0px auto; padding:0px inherit; }
+.text {font-family:Arial, Helvetica, sans-serif; font-size:16px; color:#FFFFFF; line-height:20px; text-align:center;}
+.headline {font-family:Arial, Helvetica, sans-serif; font-size:20px; color:#FFFFFF; line-height:25px; text-align:center; font-weight:bold; }
+#contain_text {width:800px; height:auto; margin-top:-500px; position:absolute; margin-left:100px; 	}
+.clear{clear:both;}
+
+
+.close{float:right;background:url('../images/close.jpg') no-repeat;text-indent:-2000px;height:21px;width:22px;}
+
+.logo {widht:171px; height:158px; padding:10px; position:absolute;cursor:pointer;}
+.village{width:823px; height:279px;bottom:130px;position:fixed;}
+.points_to_open{background: url("../images/animation.gif") repeat scroll 0 0 transparent;height: 14px;position: absolute;text-indent: -2000px;width: 14px;}
+.handpump{left: 183px;top: 138px;background-image:url('../images/animation_2.gif')}
+.girl1{left: 384px;top: 158px;}
+.girl2{left: 475px;top: 157px;}
+.tower{left: 620px;top: 128px;}
+
+.tooltip{background: url("../images/box.png") no-repeat scroll 0 0 transparent;height:134px;position:absolute;width:475px;top:-130px;left:150px;padding:10px;display:none;}
+.heading{font-family:Arial, Helvetica, sans-serif; font-size:30px; color:#0b0b0b; }
+#more a{color:#143e59;font-size:12px;text-decoration:none;}
+
+#initiatives{width:650px;height:450px;bottom:130px;position:fixed;display:none;}
+.init_vill{margin:0px 40px 0px -190px;width:380px;}
+.init_cont{width:400px;}
+
+
+#stories{display:none;}
+#menu{ list-style:none; width:600px; height:30px;margin:0px;padding:0px;}
+#menu li{list-style:none; float:left; padding:2px 0px;margin:10px 0px 0px 0px; font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#472f15; width:150px;height:18px;}
+#menu li.active{background:url('../images/story_bg.jpg') no-repeat;color:#fff}
+#menu li.active a{color:#fff;padding:5px}
+#menu a{color:#472f15; text-decoration:none;font-size:11px}
+#menu a:hover{color:#472f15; text-decoration:none;  }
+
+#tab2,#tab3,#tab4{display:none;}
+
+#eduction_child {width:550px; height:20px; font-family: Arial, Helvetica, sans-serif; color:#000000; font-size:28px; 
+padding-top:10px; position:relative;}
+
+#center_div {width:500px; height:400px;  position:absolute; margin-top:30px; }
+.img {width:190px; height:140px; margin-top:25px;}
+.ladies {width:190px; height:140px; margin-top:20px;}
+#matter_text {width:330px; height:370px; font-family:Arial, Helvetica, sans-serif; font-size:11px; color:#472f15; margin-left:210px; margin-top:-300px; line-height:16px;}
+
+
+/* Right Part */
+#right_div {width:267px;position:fixed;top:0px;right:50px;z-index:999;}
+#real_stories{width:108px; height:32px; padding:5px 10px; background:url(../images/bg2.png) no-repeat;float:left;}
+#real_stories1{width:105px; height:32px; padding:5px 10px;margin:0px 6px 20px 0px; background:url("../images/bg2.png") no-repeat scroll -140px 0 transparent;float:left;}
+.read_stories a,  .read_stories1 a{font-family:Arial, Helvetica, sans-serif; font-size:11px; color:#d3c8bd;text-decoration:none;}
+
+#every_contribution {margin-top:10px; width:auto; height:auto;}
+.rupess {width:20px; height:20px; margin-left:-30px; margin-top:11px;}
+#no_bg {list-style:none; float:left; width:290px; height:60px; margin-top:-38px; margin-left:-40px; position:relative; }
+#no_bg ul{list-style:none; padding:padding:10px 20px 10px 10px; width:290px;   }
+#no_bg li{ background: url("../images/no_bg.jpg") no-repeat scroll 0 0 transparent;display: inline-block;height: 35px;margin: 0 -2px;padding: 0;width: 32px;}
+
+.no_font{font-family:Arial, Helvetica, sans-serif; font-size:25px; color:#FFFFFF; font-weight:bold;}
+.black{font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#000000; margin-top:8px; }
+.blue{font-family:Arial, Helvetica, sans-serif; font-size:15px; color:#0099ff; font-weight:bold;}
+
+
+#form {width:232px;background:#f1f0df;padding:15px;margin:10px 0px;}
+#form ul {width:232px; height:auto; margin:0px 0px 0px 5px; padding:5px 0px 0px 0px;}
+#form li {width:80px; height:auto; float:left; list-style:none; margin-top:5px; }
+#form .blue{padding:5px 0px}
+.text_field {font-family:Arial, Helvetica, sans-serif; font-size:11px; color:#999999; border:1px solid #CCCCCC; width:120px;padding:3px;}
+.text_field1 {font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#333333;}
+.line {margin-top:40px;background:url(../images/dot.jpg)  no-repeat;height:5px; width:100% }
+.donation_any{width:130px !important;font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#333333;}
+.donation_any .text_field{margin:10px;}
+#donation{margin-top:30px;}
+
+.num{background-image:url("../images/serial_no.png");background-position:0 0;background-repeat:no-repeat;height: 35px;margin: 0;padding: 0;width: 35x;}
+#n1 {background-position:-32px 0px}
+#n2 {background-position:-64px 0px}
+#n3 {background-position:-99px 0px}
+#n4 {background-position:-129px 0px}
+#n5 {background-position:-164px 0px}
+#n6 {background-position:-196px 0px}
+#n7 {background-position:-230px 0px}
+#n8 {background-position:-262px 0px}
+/* Right Part Ends */
+
+
+
+.small_village{background:url('../images/small_village.png') no-repeat;width:370px;height:180px;bottom: -50px;position: fixed;}
+
+#footer_left{position:fixed;bottom:20px;height:65px;z-index:999;left:20px;}
+#footer_right{position:fixed;bottom:20px;height:80px;z-index:998;right:50px;}
+#footer_right a{color:#FFF;text-decoration:none;font-size:11px;font-family:Arial, Helvetica, sans-serif;}
+#footer_right p{float: right;height: 21px;margin: 0;padding: 0;width: 214px;}
+#footer_right ul{float:right;width:200px;}
+#footer_right li{border-right:1px solid #FFF;display:inline-block; padding:0px 5px;}
+#footer_right .last{border:0px}
