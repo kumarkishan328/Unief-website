@@ -1,0 +1,127 @@
+		/* Animations */
+@-webkit-keyframes moving_clouds {100% {background-position-x: 2084px;}0% {background-position-x: 0px;}}
+@-moz-keyframes moving_clouds{100% {background-position: 2084px top;}0% {background-position: 0px top;}}
+@-ms-keyframes moving_clouds{100%{background-position: 2084px top;}0%{background-position: 0px top;}}
+@-webkit-keyframes moving_swamp{100%{background-position-x:0px;}0%{background-position-x: 2084px;}}
+@-moz-keyframes moving_swamp{100%{background-position: 0px top;}0%{background-position: 2084px top;}}
+@-ms-keyframes moving_swamp{100%{background-position: 0px top;}0% {background-position: 2084px top;}}
+
+#swampholder{position:fixed;width: 100%;height:100%;top:1300px;background:none;z-index:1000;top:0}
+#swampholder1{position:fixed;width: 100%;height:150px;bottom:0px;z-index:990;}
+
+#swamp, #swamp1, #swamp2, #swamp3, #swamp4, #swamp5, #swamp6, #swamp7, #swamp8, #swamp9, #swamp10, #swamp11, #swamp12, #swamp13, #swamp14, #swamp15, #swamp16, #swamp17, #swamp18, #swamp19, #swamp20, #swamp21, #swamp22, #swamp23, #swamp24,#swamp25, #swamp26, #swamp27, #swamp28, #swamp29, #swamp30, #swamp31, #swamp32, #swamp33, #swamp34, #swamp35, #swamp36, #swamp37, #swamp38, #swamp39, #swamp40, #swamp41, #swamp42, #swamp43, #swamp44, #swamp45, #swamp46, #swamp47, #swamp48, #swamp49, #swamp50, #swamp51, #swamp52, #swamp53, #swamp54, #swamp55, #swamp56 
+{position: relative;width: 100%;height:54px;background-repeat:repeat-x;background-position: top center;background-position-x: 0px; margin-bottom:5px;}
+
+#swamp{background-image: url(../images/wave/01.png);top:0px;}	
+#swamp1{background-image: url(../images/wave/02.png);top:-40px;}	
+#swamp2{background-image: url(../images/wave/03.png);top:-80px;}	
+#swamp3{background-image: url(../images/wave/04.png);top:-120px;}	
+#swamp4{background-image: url(../images/wave/05.png);top:-160px;}	
+#swamp5{background-image: url(../images/wave/06.png);top:-200px;}	
+#swamp6{background-image: url(../images/wave/05.png);top:-240px;}
+#swamp7{background-image: url(../images/wave/01.png);top:-280px;}	
+#swamp8{background-image: url(../images/wave/02.png);top:-320px;}	
+#swamp9{background-image: url(../images/wave/03.png);top:-360px;}	
+#swamp10{background-image: url(../images/wave/04.png);top:-400px;}	
+#swamp11{background-image: url(../images/wave/05.png);top:-440px;}	
+#swamp12{background-image: url(../images/wave/06.png);top:-480px;}	
+#swamp13{background-image: url(../images/wave/05.png);top:-520px;}
+#swamp14{background-image: url(../images/wave/01.png);top:-560px;}	
+#swamp15{background-image: url(../images/wave/02.png);top:-600px;}	
+#swamp16{background-image: url(../images/wave/03.png);top:-640px;}	
+#swamp17{background-image: url(../images/wave/04.png);top:-680px;}	
+#swamp18{background-image: url(../images/wave/05.png);top:-720px;}	
+#swamp19{background-image: url(../images/wave/06.png);top:-760px;}	
+#swamp20{background-image: url(../images/wave/05.png);top:-800px;}
+#swamp21{background-image: url(../images/wave/06.png);top:-840px;}	
+#swamp22{background-image: url(../images/wave/05.png);top:-880px;}
+#swamp23{background-image: url(../images/wave/01.png);top:-920px;}	
+#swamp24{background-image: url(../images/wave/02.png);top:-960px;}	
+#swamp25{background-image: url(../images/wave/03.png);top:-1000px;}	
+#swamp26{background-image: url(../images/wave/04.png);top:-1040px;}	
+#swamp27{background-image: url(../images/wave/05.png);top:-1080px;}	
+#swamp28{background-image: url(../images/wave/06.png);top:-1120px;}	
+#swamp29{background-image: url(../images/wave/05.png);top:-1160px;}
+#swamp30{background-image: url(../images/wave/01.png);top:-1200px;}	
+#swamp31{background-image: url(../images/wave/02.png);top:-1240px;}	
+#swamp32{background-image: url(../images/wave/03.png);top:-1280px;}	
+#swamp33{background-image: url(../images/wave/04.png);top:-1320px;}	
+#swamp34{background-image: url(../images/wave/05.png);top:-1360px;}	
+#swamp35{background-image: url(../images/wave/06.png);top:-1400px;}	
+#swamp36{background-image: url(../images/wave/01.png);top:-1440px;}
+#swamp37{background-image: url(../images/wave/02.png);top:-1480px;}	
+#swamp38{background-image: url(../images/wave/03.png);top:-1520px;}	
+#swamp39{background-image: url(../images/wave/04.png);top:-1560px;}
+#swamp40{background-image: url(../images/wave/05.png);top:-1600px;}	
+#swamp41{background-image: url(../images/wave/06.png);top:-1640px;}
+#swamp42{background-image: url(../images/wave/01.png);top:-1680px;}	
+#swamp43{background-image: url(../images/wave/02.png);top:-1720px;}	
+#swamp44{background-image: url(../images/wave/03.png);top:-1760px;}	
+#swamp45{background-image: url(../images/wave/04.png);top:-1800px;}	
+#swamp46{background-image: url(../images/wave/05.png);top:-1840px;}	
+#swamp47{background-image: url(../images/wave/06.png);top:-1880px;}	
+#swamp48{background-image: url(../images/wave/01.png);top:-1920px;}
+#swamp49{background-image: url(../images/wave/02.png);top:-1960px;}	
+#swamp50{background-image: url(../images/wave/03.png);top:-2000px;}	
+#swamp51{background-image: url(../images/wave/04.png);top:-2040px;}
+#swamp52{background-image: url(../images/wave/05.png);top:-2080px;}	
+#swamp53{background-image: url(../images/wave/06.png);top:-2120px;}
+#swamp54{background-image: url(../images/wave/01.png);top:-2140px;}	
+#swamp55{background-image: url(../images/wave/02.png);top:-2160px;}	
+#swamp56{background-image: url(../images/wave/03.png);top:-2200px;}
+#swamp57{background-image: url(../images/wave/02.png);top:-2240px;}	
+#swamp58{background-image: url(../images/wave/03.png);top:-2280px;}	
+#swamp59{background-image: url(../images/wave/04.png);top:-2320px;}
+#swamp60{background-image: url(../images/wave/05.png);top:-2360px;}	
+#swamp61{background-image: url(../images/wave/06.png);top:-2400px;}
+#swamp62{background-image: url(../images/wave/01.png);top:-2440px;}	
+#swamp63{background-image: url(../images/wave/02.png);top:-2480px;}	
+#swamp64{background-image: url(../images/wave/03.png);top:-2520px;}	
+#swamp65{background-image: url(../images/wave/04.png);top:-2560px;}	
+#swamp66{background-image: url(../images/wave/05.png);top:-2600px;}	
+#swamp67{background-image: url(../images/wave/06.png);top:-2640px;}	
+#swamp68{background-image: url(../images/wave/01.png);top:-2700px;}
+#swamp69{background-image: url(../images/wave/02.png);top:-2740px;}	
+#swamp70{background-image: url(../images/wave/03.png);top:-2780px;}	
+#swamp71{background-image: url(../images/wave/04.png);top:-2800px;}
+#swamp72{background-image: url(../images/wave/05.png);top:-2840px;}	
+#swamp73{background-image: url(../images/wave/06.png);top:-2880px;}
+#swamp74{background-image: url(../images/wave/01.png);top:-2920px;}	
+#swamp75{background-image: url(../images/wave/02.png);top:-2960px;}	
+#swamp76{background-image: url(../images/wave/03.png);top:-3000px;}
+
+
+#swamp.animated, #swamp7.animated, #swamp14.animated, #swamp21.animated, #swamp27.animated, #swamp33.animated , #swamp39.animated, #swamp45.animated, #swamp51.animated, #swamp57.animated, #swamp63.animated, #swamp69.animated, #swamp75.animated    {
+	-webkit-animation-name:moving_swamp;-webkit-animation-duration: 50s;-webkit-animation-iteration-count: infinite;-webkit-animation-direction: normal;-webkit-animation-timing-function: linear;
+	-moz-animation-name: moving_swamp;	-moz-animation-duration: 50s;	-moz-animation-iteration-count: infinite;	-moz-animation-direction: normal;	-moz-animation-timing-function: linear;
+	-ms-animation-name: moving_swamp;	-ms-animation-duration: 50s;	-ms-animation-iteration-count: infinite;	-ms-animation-direction: normal;	-ms-animation-timing-function: linear;}
+	
+	
+#swamp1.animated, #swamp8.animated, #swamp15.animated, #swamp22.animated, #swamp28.animated, #swamp34.animated , #swamp40.animated, #swamp46.animated, #swamp52.animated , #swamp58.animated, #swamp64.animated, #swamp70.animated, #swamp76.animated   {
+	-webkit-animation-name:moving_clouds;-webkit-animation-duration: 50s;-webkit-animation-iteration-count: infinite;-webkit-animation-direction: normal;-webkit-animation-timing-function: linear;
+	-moz-animation-name: moving_clouds;	-moz-animation-duration: 50s;	-moz-animation-iteration-count: infinite;	-moz-animation-direction: normal;	-moz-animation-timing-function: linear;
+	-ms-animation-name: moving_clouds;	-ms-animation-duration: 50s;	-ms-animation-iteration-count: infinite;	-ms-animation-direction: normal;	-ms-animation-timing-function: linear;}
+	
+#swamp2.animated, #swamp9.animated, #swamp16.animated, #swamp23.animated, #swamp29.animated, #swamp35.animated , #swamp41.animated, #swamp47.animated, #swamp53.animated, #swamp59.animated, #swamp65.animated, #swamp71.animated   {
+	-webkit-animation-name:moving_swamp;-webkit-animation-duration: 80s;-webkit-animation-iteration-count: infinite;-webkit-animation-direction: normal;-webkit-animation-timing-function: linear;
+	-moz-animation-name: moving_swamp;	-moz-animation-duration: 80s;	-moz-animation-iteration-count: infinite;	-moz-animation-direction: normal;	-moz-animation-timing-function: linear;
+	-ms-animation-name: moving_swamp;	-ms-animation-duration: 80s;	-ms-animation-iteration-count: infinite;	-ms-animation-direction: normal;	-ms-animation-timing-function: linear;}
+	
+#swamp3.animated, #swamp10.animated,#swamp13.animated, #swamp17.animated, #swamp24.animated, #swamp30.animated, #swamp36.animated , #swamp42.animated, #swamp48.animated, #swamp60.animated, #swamp66.animated, #swamp72.animated   {
+	-webkit-animation-name: moving_clouds;-webkit-animation-duration: 80s;-webkit-animation-iteration-count: infinite;-webkit-animation-direction: normal;-webkit-animation-timing-function: linear;
+	-moz-animation-name: moving_clouds;	-moz-animation-duration: 80s;	-moz-animation-iteration-count: infinite;	-moz-animation-direction: normal;	-moz-animation-timing-function: linear;
+	-ms-animation-name: moving_clouds;	-ms-animation-duration: 80s;	-ms-animation-iteration-count: infinite;	-ms-animation-direction: normal;	-ms-animation-timing-function: linear;}
+	
+	
+#swamp4.animated, #swamp11.animated, #swamp19.animated, #swamp25.animated, #swamp31.animated, #swamp37.animated , #swamp43.animated, #swamp49.animated, #swamp55.animated, #swamp61.animated, #swamp67.animated, #swamp73.animated   {
+	-webkit-animation-name: moving_swamp;-webkit-animation-duration: 80s;-webkit-animation-iteration-count: infinite;-webkit-animation-direction: normal;-webkit-animation-timing-function: linear;
+	-moz-animation-name: moving_swamp;	-moz-animation-duration: 80s;	-moz-animation-iteration-count: infinite;	-moz-animation-direction: normal;	-moz-animation-timing-function: linear;
+	-ms-animation-name: moving_swamp;	-ms-animation-duration: 80s;	-ms-animation-iteration-count: infinite;	-ms-animation-direction: normal;	-ms-animation-timing-function: linear;}
+	
+#swamp5.animated, #swamp12.animated, #swamp20.animated, #swamp26.animated, #swamp32.animated, #swamp38.animated , #swamp44.animated, #swamp50.animated, #swamp56.animated, #swamp62.animated, #swamp68.animated, #swamp74.animated   {
+	-webkit-animation-name: moving_clouds;-webkit-animation-duration: 100s;-webkit-animation-iteration-count: infinite;-webkit-animation-direction: normal;-webkit-animation-timing-function: linear;
+	-moz-animation-name: moving_clouds;	-moz-animation-duration: 100s;	-moz-animation-iteration-count: infinite;	-moz-animation-direction: normal;	-moz-animation-timing-function: linear;
+	-ms-animation-name: moving_clouds;	-ms-animation-duration: 100s;	-ms-animation-iteration-count: infinite;	-ms-animation-direction: normal;	-ms-animation-timing-function: linear;}
+
+
+
